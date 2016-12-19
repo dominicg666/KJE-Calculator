@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>
+			Enhanced Loan Calculator
+		</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="favicon.ico" >
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1">
+		<META NAME="Description" CONTENT="Enhanced Loan Calculator: Use this calculator to look at a variety of possible loans. Change your monthly payment, loan amount, interest rate or term. Press the &quot;View Report&quot; button to see a complete amortization schedule, either by month or by year.">
+
+
+
+<script language="JavaScript">
+function navigateLink(form) {
+var destination = form.selectNav[form.selectNav.selectedIndex].value;
+if (destination != '*') {location.href = destination; }
+else {  return false; }
+}
+/* 
+ * github: https://github.com/dominicg666,
+   Blog:https://dominicdomu.blogspot.com/
+   source:https://github.com/dominicg666/KJE-Calculator
+ */
+</script>
+<link type='text/css' rel='StyleSheet' href='http://cdn.rawgit.com/dominicg666/KJE-Calculator/master/KJE.css' />
+<link type='text/css' rel='StyleSheet' href='KJESiteSpecific.css' />
+
+
+<script language="JavaScript"> 		    
+function navigateLink(form) {
+var destination = form.selectNav[form.selectNav.selectedIndex].value;
+if (destination != '*') {location.href = destination; }
+else {  return false; }
+} 
+</script>
+	</head>
+	<body>
+<div align=center><div class=KJEWrapper id="KJEPageHeader">
+		
+			
+		
+		<div class=container>
+			<div class=row>
+								
+								<div class="DinkytownCalc last">
+         
+
+
+
+<div id="KJEAllContent"></div>
+<!-- Get a Enhanced Loan Calculator you can put on your website! Many more colorful, interactive, graphing financial calculators.  Financial Calculators, ©1998-2016 KJE Computer Solutions, LLC.  For more information please see:   <A HREF="http://www.dinkytown.net">http://www.dinkytown.net</A> -->
+<!--[if lt IE 9]>
+<script language="JavaScript" SRC="excanvas.js"></script>
+<![endif]-->
+<script language="JavaScript" type="text/javascript" SRC="KJE.js"></script>
+<script language="JavaScript" type="text/javascript" SRC="KJESiteSpecific.js"></script>
+<script language="JavaScript" type="text/javascript" SRC="EnhancedLoan.js"></script>
+<!--CALC_PARAM_START-->
+<script language="JavaScript">
+
+  KJE.parameters.set("NEW_LOAN_BALANCE",250000);
+  KJE.parameters.set("NEW_LOAN_PAYMENT",100);
+  KJE.parameters.set("NEW_LOAN_RATE",6.9);
+  KJE.parameters.set("NEW_LOAN_TERM",30);
+  KJE.parameters.set("CALC_INDEX",KJE.EnhancedLoanCalc.CALC_PAYMENT);
+
+
+
+/**V3_EXTRA_PARAMETERS**/
+/**V3_CUSTOM_CODE**/
+/* <!-- Get a Enhanced Loan Calculator you can put on your website! Many more colorful, interactive, graphing financial calculators.  Financial Calculators, ©1998-2016 KJE Computer Solutions, LLC.  For more information please see:   <A HREF="http://www.dinkytown.net">http://www.dinkytown.net</A> --> */
+
+</script>
+<!--CALC_PARAM_END-->
+<div id=KJEReportText>
+ <!--HEADING "Enhanced Loan Calculator Results" HEADING--> <h2 class='KJEReportHeader KJEFontHeading'>Your NEW_LOAN_BALANCE loan has a NEW_LOAN_PAYMENT monthly payment for NEW_LOAN_MONTHS months.</h2> If you make all of your payments on this loan, and do not prepay any of the principal, the total interest for this loan is INTEREST_NEW. **GRAPH** <p> <div class=KJEReportTableDiv><table class=KJEReportTable><caption class='KJEHeaderRow KJEHeading'>Results Summary</caption> <tr class=KJEOddRow><td class="KJELabel KJECellBorder KJECell60">Monthly payment</td><td class="KJECell KJECell40">NEW_LOAN_PAYMENT</td></tr> <tr class=KJEEvenRow><td class="KJELabel KJECellBorder">Loan amount</td><td class="KJECell">NEW_LOAN_BALANCE</td></tr> <tr class=KJEOddRow><td class="KJELabel KJECellBorder">Interest rate</td><td class="KJECell">NEW_LOAN_RATE</td></tr> <tr class=KJEEvenRow><td class="KJELabel KJECellBorder">Term</td><td class="KJECell">NEW_LOAN_MONTHS months</td></tr> <tr class=KJEOddRow><td class="KJELabel KJECellBorder">Total interest </td><td class="KJECell">INTEREST_NEW</td></tr></table> </div> <h2 class='KJEScheduleHeader KJEFontHeading'>Payment Schedule</h2> **REPEATING GROUP** </div>
+<div width=100% align=center ><div id=KJEDefinitions class=KJEDefinitions  width=100%><h2 class='KJEDefinitionsHeader KJEFontHeading'>Enhanced Loan Calculator Definitions</h2><dl>
+ <div id='KJE-D-NEW_LOAN_PAYMENT' ><dt>Monthly payment</dt><dd>Monthly payment for this loan.</dd></div> <div id='KJE-D-NEW_LOAN_RATE' ><dt>Interest rate</dt><dd>Annual interest rate for this loan. Interest is calculated monthly on the current outstanding balance of your loan at 1/12 of the annual rate.</dd></div> <div id='KJE-D-NEW_LOAN_TERM' ><dt>Term in months</dt><dd>Number of months for this loan.</dd></div> <div id='KJE-D-NEW_LOAN_BALANCE' ><dt>Loan amount</dt><dd>Total amount of your loan.</dd></div> </dl></div></div>
+
+<br>
+
+				</div>
+			</div>
+		</div>
+		
+		</div>
+		</div>
+<script>if (KJE.IE7and8) KJE.init();</script>
+ <script>  
+ KJ=new Object();
+   KJ.KJECalcNavigation = document.getElementById("KJECalcNavigation");
+   KJ.KJECalcNavigation2 = document.getElementById("KJECalcNavigation2");
+   KJ.KJENavButton = document.getElementById("KJENavButton");
+   KJ.ShowNav = false;
+
+   KJ.KJECalcNav = function(){
+     if (KJ.ShowNav) {
+       KJ.KJECalcNavigation.style.display='none';
+       if (window.innerWidth < 500) KJ.KJECalcNavigation2.style.display='none';
+       KJ.KJENavButton.innerHTML='<br><br>More&darr;';
+       KJ.ShowNav = false;
+     }
+     else    {
+       KJ.KJECalcNavigation.style.display='block';
+       KJ.KJECalcNavigation2.style.display='inline-block';
+       KJ.KJENavButton.innerHTML='<br><br>Less&uarr;';
+       KJ.ShowNav = true;
+     }
+   };
+
+
+   KJ.KJECalcNavResize = function(){
+     var iNavOldWidth = window.innerWidth;
+     if (iNavOldWidth > 900)   KJ.KJECalcNavigation.style.display='block';
+     else  KJ.KJECalcNavigation.style.display='none';
+
+     if (iNavOldWidth > 500)   KJ.KJECalcNavigation2.style.display='inline-block';
+     else  KJ.KJECalcNavigation2.style.display='none';
+
+     if (iNavOldWidth < 900) {KJ.ShowNav = false;  KJ.KJENavButton.innerHTML='<br><br>More&darr;';}
+
+   };
+
+   if (window.addEventListener) {
+     window.addEventListener('resize', KJ.KJECalcNavResize ,false);
+   }
+ </script>
+
+<script>
+  function KJESetRecents(rvt_div){
+    if (!rvt_div) return;
+
+    var aList = new Array();
+    for (var i = 0; i < localStorage.length; i++){
+      aList[i] = localStorage.key(i) ;
+    }
+    aList = aList.sort();
+
+    var iList = rvt_div;
+    var sList = "";
+    for (var i = 0; i < aList.length; i++){
+      //  only care about entries without a "_" in them.
+      var i_ = aList[i].indexOf("_");
+      if (i_ < 0) {
+        var name = (aList[i]+"_name");
+        var iCutOff = aList[i].indexOf('#');
+        if (iCutOff>0) sIndex = aList[i].substring(0,iCutOff);
+        else sIndex =  aList[i];
+
+        var sHref = sIndex +"_href";
+        var sTitle = sIndex +"_title";
+  if (localStorage.getItem(sTitle)!=null) {
+    sList += "<dt style='line-height:0px'><div class='rvt_line' style='line-height:0px'><div class='rvt_line_lead' style='line-height:0px'>&#9829;</div></dt><dd><a href='"+ localStorage.getItem(sHref)+"?KJEData="+ localStorage.getItem(aList[i]) +"'>"+localStorage.getItem(sTitle)+(iCutOff>0?" : "+localStorage.getItem(name) :"")+"</a></div></dd>";
+     }
+      }
+    }
+    iList.innerHTML = '<dl><div class="rvt_title">Recently saved:</div>'+sList+'</dl>';
+  }
+  KJESetRecents(document.getElementById("KJERecents"));
+
+</script>
+</body>
+</html>

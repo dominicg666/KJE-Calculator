@@ -1,0 +1,141 @@
+/* 
+ * github: https://github.com/dominicg666,
+   Blog:https://dominicdomu.blogspot.com/
+   source:https://github.com/dominicg666/KJE-Calculator
+ */
+.DinkytownReportHeader {
+    text-align:center;
+    width:95%;
+    border-width:1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.DinkytownTagLine {
+   font-size: 14pt;
+    text-align:center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.DinkytownContent {
+  text-align:left;
+  padding: 10px;
+}
+
+.DinkytownReportTitle {
+    font-size: 16pt;
+}
+
+#KJEAllContent {
+    font: normal 10pt arial, sans-serif;
+    background: #ffffff;
+    color: #000000;
+}
+
+.KJEFontHeading {
+    color:#000000;
+}
+
+.KJEError {
+    color:#FF0000;
+}
+
+.KJECalculatorTable {
+}
+
+.KJEInputContainer:hover {
+    background-color: #ffffff;
+}
+
+.KJEDropper:hover {
+    background-color: #ffffff;
+}
+
+.KJEGraphDropper:hover {
+    background-color: #ffffff;
+}
+
+.KJEInputContainer .help:hover {
+    color: #333333;
+}
+
+.KJEReportTitle {
+    font-size:14pt;
+    font-weight:bold;
+    margin: 0;
+    padding: 0;
+}
+
+.KJEReportTitleBlock {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.KJEWidthConstraint {
+    max-width: 900px;
+    text-align:left;
+    margin: auto;
+    background: #ffffff;
+    padding:15px;
+}
+
+.KJEWrapper {
+    background: #ffffff;
+    padding: 0;
+    margin:0;
+}
+
+body {
+    margin: 0;
+    background: #ffffff;
+}
+
+.KJETitle {
+    font-size: 16pt;
+    text-align: center;
+    background: url("SmallSquareWM.png");
+    background-repeat: no-repeat;
+    background-position: -3px -2px;
+    background-size:85px 85px;
+}
+
+@media print {
+    body {
+        background: #ffffff;
+        background-image: none;
+    }
+
+    .KJETitle {
+        background: url("LargeSquareWM.png");
+        background-repeat: no-repeat;
+        background-position: -3px -2px;
+        background-size:85px 85px;
+    }
+
+
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+    .KJETitle {
+        background: url("LargeSquareWM.png");
+        background-repeat: no-repeat;
+        background-position: -3px -2px;
+        background-size:85px 85px;
+    }
+}
+
+
