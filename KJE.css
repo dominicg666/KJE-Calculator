@@ -1641,3 +1641,7 @@ div.KJEMenuSavedRow {
 div.KJEMenuSelectedRow {
     background: #2ab0ed;
 }
+div#KJECommandButtons {
+    position: relative;
+    top: 0px !important;
+}
