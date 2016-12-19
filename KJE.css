@@ -1158,7 +1158,7 @@ table.KJEScheduleTable td.KJECellBorder {
     display:inline-block;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url('http://cdn.rawgit.com/dominicg666/KJE-Calculator/master/loader.gif');
+    background-image: url('http://cdn.rawgit.com/dominicg666/KJE-Calculator/master/splash.png');
 }
 
 .KJEWidthContraint {
